@@ -7,5 +7,5 @@
 *.psd1 linguist-detectable=false
 
 # Exclude Batchfiles
-*.bat linguist-vendored
-*.cmd linguist-vendored
+*.bat linguist-detectable=false
+*.cmd linguist-detectable=false
