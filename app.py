@@ -30,7 +30,7 @@ def get_aircraft_data(reg):
     print("Making API call to: ", url)
     return jsonify(response.json())
 
-@app.route("/tagged-aircrafts")
+@app.route("/tagged-aircrafts") # http://127.0.0.1:8000/tagged-aircrafts
 def get_tagged_aircraft_data():
     url = f"{API_BASE_URL}/v2/mil/"
     response = requests.get(url, headers=headers)
@@ -41,4 +41,4 @@ def get_tagged_aircraft_data():
         return jsonify({"error": "API call failed"}), response.status_code
 
 if __name__ == '__main__': 
-    app.run(debug=False, port=8000)
+    app.run(host="0.0.0.0", port=8000)
