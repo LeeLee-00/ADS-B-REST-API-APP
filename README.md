@@ -73,14 +73,3 @@ The FastAPI application will be accessible at [http://127.0.0.1:8000](http://127
 - Access tagged aircraft data: [http://127.0.0.1:8000/tagged-aircrafts](http://127.0.0.1:8000/tagged-aircrafts)
 
 - Access both coded endpoints using http://127.0.0.1:8000/docs onces your in the swagger ui click "get", "try it out" and then click "execute" to view the response bodies to view the JSON data.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or fixes to suggest.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
-
-You can copy and paste this markdown content into your README.md file, and it will format correctly. Remember to replace `yourusername` with your actual GitHub username in the clone command and update the license information if needed.
