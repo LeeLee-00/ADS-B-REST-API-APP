@@ -1,6 +1,6 @@
 Certainly! Here's the README content formatted in markdown:
 
-```markdown
+
 FastAPI ADS-B REST API Application
 
 This is a FastAPI-based REST API application that provides access to ADS-B (Automatic Dependent Surveillance–Broadcast) data. It fetches tagged aircraft data from the ADS-B Exchange API and serves it through a FastAPI web server.
